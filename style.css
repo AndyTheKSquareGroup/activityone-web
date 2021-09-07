@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 7px;
+    padding: 7px;
+}
+
+/* GENERAL BACKGROUND */
+.content{
+    background-color: rgba(18, 143, 245, 0.671);
+}
+
+/* TITLE */
+.title_socrates{
+    text-align: center;
+    margin: 10px ;
+}
+
+/* IMAGE AND PHRASE */
+.image{
+    background: rgba(0, 217, 255, 0.678);
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 2em;
+}
+
+.image .phrase{
+    margin: 15px 15px;
+    padding-top: 20px;
+}
+
+.image .image_caption{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+
+li{
+    font-style: italic;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.quotes{
+    background: white;
+    margin: 20px;
+}
+
+.quotes h2{
+    text-align: center;
+}
+
+/* FOOTER*/
+.quotes .foot{
+    text-align: right;
+}
+
+/*RESPONSIVE DESIGN */
+@media (max-width: 800px){
+    .content .image img{
+        width: 400px;
+        height: 400px;
+    }
+    
+    .quotes .foot{
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px){
+    .content .image img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .quotes .foot{
+        text-align: center;
+    }
+}
